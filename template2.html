@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Backtest Template</title>
+
+    <style>
+            table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 2px;
+    }
+    </style>
+
+</head>
+<body>
+
+<h3><center> Backtest Report</center></h3>
+
+<div>
+    <table  style="width: 30%">
+    <tr>
+        <th>Strategy</th>
+        <td>Strategy name goes here</td>
+    </tr>
+    <tr>
+        <th>Asset Class</th>
+        <td>FX</td>
+    </tr>
+    <tr>
+        <th>TimeFrame</th>
+        <td>M5</td>
+    </tr>
+    <tr>
+        <th>Tested Symbols</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Start Date</th>
+        <td></td>
+    </tr>
+    <tr>
+        <th>End Date</th>
+        <td></td>
+    </tr>
+</table>
+
+
+<br>
+<div>
+    <table style="width: 30%">
+    <tr>
+        <th  colspan="4">Parameters</th>
+    </tr>
+
+</table>
+</div>
+
+</div>
+
+
+<br>
+
+<table style="width: 30%">
+    <tr>
+        <th></th>
+        <th>Total</th>
+        <th>Long</th>
+        <th>Short</th>
+    </tr>
+    <tr>
+        <td colspan="4"><strong>Trades</strong></td>
+    </tr>
+    <tr>
+        <td>Total Open</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Closed</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Strike Rate</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Payoff Ratio</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Time in Market</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Avg Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Max Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Min Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="4"><strong>PnL</strong></td>
+    </tr>
+    <tr>
+        <td>Total Gross</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Net</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Gross Avg</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Net Avg</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="4"><strong>Winners</strong></td>
+
+    </tr>
+    <tr>
+        <td>Total Winners</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Win Streak</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Gross</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Avg Win</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Max Win</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Time in Market</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Avg Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Max Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Min Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td colspan="4"><strong>Losers</strong></td>
+    </tr>
+    <tr>
+        <td>Total Losers</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    <tr>
+
+        <td>Total Gross</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Avg Loss</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Max Loss</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Total Time in Market</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Avg Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Max Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Min Time/Trade</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+
+</body>
+</html>
