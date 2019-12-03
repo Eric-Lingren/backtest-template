@@ -7,12 +7,14 @@
     <title>Backtest Template</title>
 
     <style>
-        table, th, td {
-            border: 1px solid black;
+        table {
+            border: 2px solid black;
             border-collapse: collapse;
         }
         th, td {
             padding: 2px;
+            border: 1px solid black;
+            border-collapse: collapse;
         }
         .top-tables{
             display: flex;
@@ -42,7 +44,7 @@
 <h3><center> Backtest Report</center></h3>
 
     <div class='top-tables'>
-        <div style="width: 33%; padding: 3px">
+        <div style="width: 33%; padding: 10px 10px 10px 0px">
             <table style="width: 100%">
                 <tr>
                     <th>Strategy</th>
@@ -73,13 +75,17 @@
 
         <br>
 
-        <div style="width: 33%; padding: 3px">
+        <div style="width: 33%; padding: 10px">
             <table style="width: 100%">
                 <tr>
-                    <th  colspan="4">KPI's</th>
+                    <th colspan="2">KPI's</th>
                 </tr>
                 <tr>
                     <th>Sharpe</th>
+                    <td>Number Here</td>
+                </tr>
+                <tr>
+                    <th>Standard Deviation</th>
                     <td>Number Here</td>
                 </tr>
             </table>
@@ -87,13 +93,21 @@
 
         <br>
 
-        <div style="width: 33%; padding: 3px">
+        <div style="width: 33%; padding: 10px 0px 10px 10px">
             <table style="width: 100%">
                 <tr>
-                    <th  colspan="4">Parameters</th>
+                    <th  colspan="2">Parameters</th>
                 </tr>
                 <tr>
                     <th>Param 1</th>
+                    <td>Value Here</td>
+                </tr>
+                <tr>
+                    <th>Param 3</th>
+                    <td>Value Here</td>
+                </tr>
+                <tr>
+                    <th>Param 3</th>
                     <td>Value Here</td>
                 </tr>
             </table>
